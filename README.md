@@ -37,5 +37,6 @@ Popularity, Duration, Acousticness, Danceability, Energy, Instrumenalness, Key, 
 - Generally normal distribution for Danceability, Track Energy, and duration in the set.
 - Most Tracks have a low Acousticness, Instrumentalness and Liveness
 
-
+## Classification Algorithms
+### Logistic Regression
 
