@@ -27,8 +27,6 @@ Popularity, Duration, Acousticness, Danceability, Energy, Instrumenalness, Key, 
 ![class](Readme%20Images/mode.png)
 - The feature of Speechiness (a way to detect whether a track is spoken word such as  a podcast episode, a part of a comedy album, or a rap) was also fount to have little importance and tracks tended towards 0 (little confidence that it is a spoken word track). This plus the fact there isn’t much spoken word in rock, I dropped this value.
 ![class](Readme%20Images/speech.png)
-### Feature Distribution
-![class](Readme%20Images/featuredist.png)
 
 ### Feature Engineering: Mood
 - Using mode and key I created a feature called Mood
