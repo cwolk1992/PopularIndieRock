@@ -18,6 +18,8 @@ Popularity, Duration, Acousticness, Danceability, Energy, Instrumenalness, Key, 
 - Found that the top 25% of songs had a value of 56 or up.
 - Created a new column called popularity_class to categorize this categorical data. 
 - This became my target variable
+- There was only a minor class imbalance. 810 unpopular values, 302 popular values.
+
 
 ## Feature Exploration
 ### Feature Importance
