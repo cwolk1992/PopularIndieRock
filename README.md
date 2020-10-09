@@ -39,4 +39,34 @@ Popularity, Duration, Acousticness, Danceability, Energy, Instrumenalness, Key, 
 
 ## Classification Algorithms
 ### Logistic Regression
+- The Confusion Matrix only predicted True Negatives (unpopular songs) and did not predict Popular songs. Because of this not a good model.
+- Not able to calculate these in a helpful way because only accounts for and predicts unpopular songs 
+- Though the testing accuracy was 100% it wasn't a good model since it only predicted true negatives.
+
+### Decision Trees
+- There were many more False Negatives (says not popular, but actually popular) than True Negatives (not popular but actually popular)
+- Better at predicting unpopular songs than popular songs.
+- Testing Accuracy for Decision Tree Classifier: 71.94%
+- Performed Adaboost to increase accuracy but there was little to no difference when run
+
+### Bagged Trees
+- There were many more False Negatives (says not popular, but actually popular) than True Negatives (not popular but actually popular)
+- Better at predicting unpopular songs than popular songs.
+- Testing Accuracy for Bagged Tree Classifier: 73.02%
+- Performed Adaboost to increase accuracy but there was little to no difference when run
+
+### Random Forests
+- There were many more False Negatives (says not popular, but actually popular) than True Negatives (not popular but actually popular)
+- Better at predicting unpopular songs than popular songs.
+- Testing Accuracy for Decision Tree Classifier: 71.94%
+- Performed Adaboost to increase accuracy but there was little to no difference when run
+
+### Grid Search CV
+- Only predicted True Negatives (unpopular songs) and False Negatives (says not popular, but actually popular) and did not predict True Popular songs. Because of this not a good model.
+- Testing Accuracy for Grid Search: 72.30%
+
+## Conclusions
+- Decision Trees  produced the most relevant model.  Though it had the lowest accuracy at 72 %, it predicted the most true negatives (unpopular songs) as well as the most true positives.  
+- All models were better at predicting unpopular songs than popular songs.
+- In the future, I would like to either redefine the parameters of popularity or gather more data on popular songs for a more balanced collection more songs and create a larger dataset to possibly get a more accurate model and take care of the class imbalance.
 
