@@ -19,7 +19,7 @@ Popularity, Duration, Acousticness, Danceability, Energy, Instrumenalness, Key, 
 - Created a new column called popularity_class to categorize this categorical data. 
 - This became my target variable
 - There was only a minor class imbalance. 810 unpopular values, 302 popular values.
-
+![class](Readme%20Images/popvsunpop.png)
 
 ## Feature Exploration
 ### Feature Importance
